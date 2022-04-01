@@ -18,8 +18,8 @@ const Cart = (props) => {
         <div className='cart'>
             <h4>Order Summary</h4>
             <p>Selected Items: {quantity}</p>
-            <p>Total price: ${total}</p>
-            <p>Total Shipping: ${shipping}</p>
+            <p>Total price: {total}</p>
+            <p>Total Shipping: {shipping}</p>
             <p>Tax: {tax}</p>
             <h5>Grand Total: {grandTotal.toFixed(2)}</h5>
             {props.children}
