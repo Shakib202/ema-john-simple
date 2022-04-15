@@ -1,6 +1,6 @@
 .form-container {
   width: 600px;
-  height: 600px;
+  height: 700px;
   margin: 0 auto;
   border: 1px solid #95a0a7;
   box-sizing: border-box;
@@ -70,6 +70,9 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+.google-btn-style:hover{
+  background-color: whitesmoke;
 }
 .google-btn-style img {
   width: 20px;
